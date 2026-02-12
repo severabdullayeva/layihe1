@@ -142,12 +142,21 @@ body{
 
 .portfolio-filter-link{
     font-weight: 300;
+    cursor: pointer;
 }
 
 .portfolio-filter-link:hover{
     color: #bac964;
 }
 
+.active {
+        color: #bac964;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
 
 /* resume */
 .section-resume{
