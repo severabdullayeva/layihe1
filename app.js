@@ -1,3 +1,12 @@
+
+const burger = document.querySelector(".burger")
+const menu = document.querySelector(".menu")
+
+burger.addEventListener("click", () => {
+    menu.classList.toggle("active")
+})
+
+
 const filters = document.querySelectorAll(".portfolio-filter-item");
 const items = document.querySelectorAll(".cursor");
 
@@ -23,7 +32,7 @@ filters.forEach(filter => {
             }
 
         });
-        AOS.refresh(); 
+        AOS.refresh();
 
 
     });
